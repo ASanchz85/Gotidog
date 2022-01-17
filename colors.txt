@@ -1,0 +1,38 @@
+MAIN COLORS:
+
+orange: 
+#f7941c
+rgb(247, 148, 28)
+hsl(33, 93%, 54%)
+
+turquesa:
+#189494
+rgb(24, 148, 148)
+hsl(180, 72%, 34%)
+
+SECONDARY COLORS:
+
+softOrange: 
+#ffb61c
+rgb(255, 182, 28)
+hsl(41, 100%, 55%)
+
+darkOrange: 
+#aa6613
+rgb(170, 102, 19)
+hsl(33, 80%, 37%)
+
+softTurquesa:
+#24e0e0
+rgb(36, 224, 224)
+hsl(180, 75%, 51%)
+
+dark Turquesa:
+#0b4747
+rgb(11, 71, 71)
+hsl(180, 73%, 16%)
+
+Jokers:
+Black Chocolate: 
+#131200
+

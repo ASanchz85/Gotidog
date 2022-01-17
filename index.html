@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GotiDog</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page">
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="./assets/solologo.png" alt="logo">
+                    <ul>
+                        <li><a href="./sobremi.html">Sobre Mi</a></li>
+                        <li><a href="./servicios.html">Servicios</a></li>
+                        <li><a href="#">Tienda</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="main-content">
+                <h1><span>Expertos en</span><br> Educacion Canina</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum voluptatum nisi placeat veniam porro, quos dolores! Enim non qui, ipsa labore corporis fugiat similique commodi adipisci consequuntur natus et nulla?</p>
+                
+            </section>
+
+            <section class="side-content">
+                <div class="layer lottie-side" data-speed="7"><lottie-player src="https://assets6.lottiefiles.com/packages/lf20_hsjuhntt.json"  background="transparent"  speed="1"  style="width: 700px; height: 700px;"  loop  autoplay></lottie-player></div>
+                <span class="layer ball1" data-speed="-7"></span>
+                <span class="layer ball2" data-speed="-4"></span>
+                <span class="layer ball3" data-speed="-2"></span>
+                <span class="layer food" data-speed="-2"></span>
+                <span class="layer food2" data-speed="-3"></span>
+            </section>
+
+            <section class="side-social">
+                <img src="./assets/solotexto2.png" alt="GotiDog">
+                <div class="main-logo"></div>
+                <a href="#" class="btn-flotante">¿Hablamos?</a>
+            </section>
+            
+            <section class="footer">
+                <p class="footer-info">SERVICIOS</p>
+                <div id="button1"><div class="Adiestramiento"><lottie-player src="https://assets3.lottiefiles.com/packages/lf20_lkcv3xga.json"  background="transparent"  speed="1"  style="width:150px; height:150px;" autoplay loop  ></lottie-player></div><p class="footer-buttons">Adiestramiento</p></div>
+                <div><div class="Adopciones"><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_syqnfe7c.json"  background="transparent"  speed="1"  style="width:150px; height:150px;" autoplay loop  ></lottie-player></div><p class="footer-buttons">Adopciones</p></div>
+                <div><div class="Talleres"><lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_emulvclw.json"  background="transparent"  speed="1"  style="width:150px; height:150px;" autoplay loop  ></lottie-player></div><p class="footer-buttons">Talleres</p></div>
+            </section>
+        </section>
+        <!-- loader -->
+        <section class="loader">
+            <div class="lottie-loader"><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_2ixzdfvy.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></div>
+        </section>
+        <!-- modal -->
+        <section class="modal hidden">
+            <div class="modal__container">
+                <img class="modal-close" src="./assets/cerrar-ventana.png">
+
+                <div class="modal__slider">
+                    <input type="radio" name="slider1" id="radio1" checked>
+                    <input type="radio" name="slider1" id="radio2">
+                    <input type="radio" name="slider1" id="radio3">
+
+                    <div class="cards">
+                        <laber for="radio1" id="card1" class="card"><img src="#" alt=""></laber>
+                        <laber for="radio2" id="card2" class="card"><img src="#" alt=""></laber>
+                        <laber for="radio3" id="card3" class="card"><img src="#" alt=""></laber>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./parallax.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
